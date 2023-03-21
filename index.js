@@ -45,6 +45,6 @@ app.post('/process-BMI', urlEncodedParser, function (request, response){
 });
 
 
-app.listen(PORT);
-console.log(`Server is listening on ${PORT}`);
+app.listen(port);
+console.log(`Server is listening on ${port}`);
 
